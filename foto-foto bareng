@@ -1,1 +1,14 @@
-IMG-20250725-WA0024.jpg
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kenangan Foto XI.4</title>
+</head>
+<body>
+  <h1>📸 Foto Kenangan XI.4</h1>
+  <p>Ini adalah momen terakhir bersama sebelum libur semester. Semua berkumpul dengan senyum terbaik.</p>
+  <img src="foto/IMG-20250725-WA0024.jpg" alt="Foto Bareng XI.4" style="width:90%; max-width:500px; border-radius:10px;">
+  <p><i>“Kenangan akan tetap hidup meskipun waktu berjalan.”</i></p>
+</body>
+</html>
