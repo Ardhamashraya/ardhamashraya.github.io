@@ -1,12 +1,67 @@
-<!-- kenangan.html --><!DOCTYPE html><html lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kenangan Kelas XI.4</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenangan XI.4</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #424242;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #616161;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    .kenangan-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .kenangan-item {
+      background-color: #e0e0e0;
+      padding: 12px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+    .kenangan-item:hover {
+      background-color: #d0d0d0;
+    }
+    footer {
+      background-color: #424242;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-  <header><h1>Kenangan XI.4</h1></header>
+  <header>
+    <h1>Kenangan XI.4</h1>
+  </header>
   <nav>
     <a href="index.html">Beranda</a>
     <a href="nama.html">Nama Teman</a>
@@ -17,17 +72,20 @@
   <main>
     <h2>Catatan Kenangan</h2>
     <p>Di sinilah semua momen indah kita selama satu tahun di XI.4 disimpan. Tawa, canda, sedih, perjuangan — semuanya berharga.</p>
-    <ul class="nama-list">
-      <li>📸 Foto bareng di akhir semester</li>
-      <li>🏆 Kemenangan lomba classmeeting</li>
-      <li>🎉 Surprise ulang tahun teman sekelas</li>
-      <li>🎓 Persiapan UAS bareng di grup</li>
-      <li>📚 Kerja kelompok & presentasi bareng</li>
-      <li>🚌 Kegiatan outing class ke pantai</li>
-      <li>🎥 Video lucu yang viral di grup</li>
-      <li>📝 Coretan-coretan di papan tulis</li>
-    </ul>
+
+    <div class="kenangan-list">
+      <a class="kenangan-item" href="#">📸 Foto bareng di akhir semester</a>
+      <a class="kenangan-item" href="#">🏆 Kemenangan lomba classmeeting</a>
+      <a class="kenangan-item" href="#">🎉 Surprise ulang tahun teman sekelas</a>
+      <a class="kenangan-item" href="#">🎓 Persiapan UAS bareng di grup</a>
+      <a class="kenangan-item" href="#">📚 Kerja kelompok & presentasi bareng</a>
+      <a class="kenangan-item" href="#">🚌 Kegiatan outing class ke pantai</a>
+      <a class="kenangan-item" href="#">🎥 Video lucu yang viral di grup</a>
+      <a class="kenangan-item" href="#">📝 Coretan-coretan di papan tulis</a>
+    </div>
   </main>
-  <footer>&copy; 2025 XI.4 Ardhamashraya</footer>
+  <footer>
+    &copy; 2025 XI.4 Ardhamashraya
+  </footer>
 </body>
-</html>
+        </html>
