@@ -1,83 +1,119 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Website Kenangan XI.4</title>
-  <link rel="stylesheet" href="gaya.css" />
+  <title>evlf.our - Kenangan XI.4</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background-color: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
       color: #333;
     }
+
     header {
-      background-color: #2c3e50;
-      color: white;
+      display: flex;
+      align-items: center;
+      background-color: #283e4a;
       padding: 20px;
-      text-align: center;
+      color: white;
     }
+
     header img {
-      height: 80px;
-      margin-bottom: 10px;
+      height: 60px;
+      margin-right: 20px;
+      border-radius: 50%;
+      background: white;
+      padding: 5px;
     }
+
+    header h1 {
+      font-size: 1.8em;
+      margin: 0;
+    }
+
     nav {
-      background-color: #34495e;
-      text-align: center;
-      padding: 10px;
+      background-color: #1c2c38;
+      display: flex;
+      padding: 12px 20px;
     }
+
     nav a {
       color: white;
-      margin: 0 15px;
+      margin-right: 20px;
       text-decoration: none;
       font-weight: bold;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
+
     main {
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: auto;
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 30px;
       text-align: center;
     }
-    h2 {
-      color: #2c3e50;
+
+    main img.logo-smaring {
+      max-width: 120px;
+      margin-top: 10px;
+      border-radius: 12px;
     }
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 40px;
+
+    main h2 {
+      margin-top: 20px;
+    }
+
+    main p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .ucapan {
+      margin-top: 30px;
+      background-color: #ffffffdd;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+      max-width: 600px;
+    }
+
+    .ucapan p {
+      font-style: italic;
+      font-size: 1.1em;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <img src="logo-sman1cluring.png" alt="Logo SMA Negeri 1 Cluring" />
-    <h1>Website Kenangan Kelas XI.4</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/World_Scout_Emblem.svg/2048px-World_Scout_Emblem.svg.png" alt="Logo SMARING" />
+    <h1>evlf.our - Kenangan XI.4</h1>
   </header>
 
   <nav>
     <a href="index.html">Beranda</a>
     <a href="nama.html">Nama Teman</a>
     <a href="kenangan.html">Kenangan</a>
-    <a href="galeri.html">Galeri</a>
-    <a href="ucapan.html">Ucapan</a>
+    <a href="aib.html">Aib Lucu</a>
   </nav>
 
   <main>
-    <h2>Selamat datang di website kenangan XI.4 Ardhamashraya</h2>
-    <p>Tempat kita menyimpan momen indah selama satu tahun bersama.<br>Semoga tidak terlupakan!</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/World_Scout_Emblem.svg/2048px-World_Scout_Emblem.svg.png" alt="Logo SMARING" class="logo-smaring"/>
+    <h2>Selamat Datang di Website Kenangan XI.4</h2>
+    <p>Website ini dibuat untuk mengenang momen-momen indah kita selama kelas XI.4 SMA.<br>
+    Semoga bisa menjadi kenangan manis yang tak terlupakan, bersama evlf.our.</p>
+    
+    <div class="ucapan">
+      <p>
+        Terima kasih atas tawa, tangis, dan kebersamaan yang telah kita lalui bersama.<br />
+        Meski waktu berjalan cepat, kenangan ini akan selalu abadi di hati kita.<br />
+        Tetap jadi versi terbaik dirimu, dan jangan lupa teman-temanmu dari XI.4!
+      </p>
+    </div>
   </main>
 
-  <footer>
-    &copy; 2025 XI.4 Ardhamashraya
-  </footer>
 </body>
 </html>
