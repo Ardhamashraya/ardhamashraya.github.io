@@ -1,86 +1,111 @@
-<!DOCTYPE html><html lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nama Teman XI.4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daftar Nama XI.4</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-image: url('../background.jpg'); /* Sesuaikan nama file jika berbeda */
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* tekstur background */
+      background-color: #2c3e50;
       color: white;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
       padding: 20px;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-    }
-    h1 {
       text-align: center;
-      margin-bottom: 30px;
-      font-size: 2.5em;
-      color: #fff;
+      font-size: 28px;
+      font-weight: bold;
       text-transform: uppercase;
-      border-bottom: 3px solid rgba(255,255,255,0.4);
+      letter-spacing: 2px;
+      border-bottom: 2px solid #444;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .btn-beranda {
       display: inline-block;
-      padding-bottom: 10px;
+      margin-bottom: 20px;
+      padding: 10px 18px;
+      background-color: #2980b9;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      transition: background-color 0.3s ease;
     }
+
+    .btn-beranda:hover {
+      background-color: #1c6690;
+    }
+
     .nama-list {
-      list-style: none;
-      padding: 0;
-      max-width: 600px;
-      margin: auto;
-      background: rgba(0, 0, 0, 0.5);
-      border-radius: 15px;
-      padding: 20px 30px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      list-style-type: decimal;
+      padding-left: 20px;
+      font-size: 18px;
+      line-height: 1.7;
     }
+
     .nama-list li {
-      font-size: 1.2em;
-      padding: 10px 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    .nama-list li:last-child {
-      border-bottom: none;
+      margin-bottom: 6px;
     }
   </style>
 </head>
 <body>
-  <h1>Nama Teman XI.4</h1>
-  <ul class="nama-list">
-    <li>1. Akbar Aprillia Wicaksono</li>
-    <li>2. Amellisa</li>
-    <li>3. Amira Ahsani Zahra</li>
-    <li>4. Anisa Riski Oktalia</li>
-    <li>5. Azizah Nur Alfi Mudrikah</li>
-    <li>6. Chelsea Tri Lestari</li>
-    <li>7. Claudio Taffarel Sensa</li>
-    <li>8. Cyntia Ellen</li>
-    <li>9. Denisa Meta Nurviyanti</li>
-    <li>10. Desy Puspita Ningrum</li>
-    <li>11. Dwi Nurfitasari</li>
-    <li>12. Early Nazwa Nafisatus Shofa</li>
-    <li>13. Fadli Royan Firdaus</li>
-    <li>14. Faizha Tri Anugrah</li>
-    <li>15. Farel Sapta Ramadhan</li>
-    <li>16. Firda Dwi Nuramalia</li>
-    <li>17. M. Anas Fahreza</li>
-    <li>18. Medina Fani Setiyowati</li>
-    <li>19. Mifta Takeiya Nur Annisa</li>
-    <li>20. Mohamad Kevin Abdilah</li>
-    <li>21. Mohamad Sabil Firmansyah</li>
-    <li>22. Natasya Prahesti Reqita Cahya</li>
-    <li>23. Naura Shofi Salsabila</li>
-    <li>24. Nur Syafikah Ramadhani</li>
-    <li>25. Rafi Achmad Sukristianto</li>
-    <li>26. Rahma Amelia Zahra</li>
-    <li>27. Raihan Firdaust</li>
-    <li>28. Revalina Afiola</li>
-    <li>29. Richard Dwiky Albertino</li>
-    <li>30. Rifky Farell Adriano</li>
-    <li>31. Rinno Septa Ramadhan</li>
-    <li>32. Sakira Ramadhani</li>
-    <li>33. Victor Halim Maulana</li>
-    <li>34. Vira Puspitasari</li>
-  </ul>
+  <header>
+    Daftar Nama XI.4
+  </header>
+
+  <div class="container">
+    <a href="index.html" class="btn-beranda">← Kembali ke Beranda</a>
+
+    <ul class="nama-list">
+      <li>Akbar Aprillia Wicaksono</li>
+      <li>Amellisa</li>
+      <li>Amira Ahsani Zahra</li>
+      <li>Anisa Riski Oktalia</li>
+      <li>Azizah Nur Alfi Mudrikah</li>
+      <li>Chelsea Tri Lestari</li>
+      <li>Claudio Taffarel Sensa</li>
+      <li>Cyntia Ellen</li>
+      <li>Denisa Meta Nurviyanti</li>
+      <li>Desy Puspita Ningrum</li>
+      <li>Dwi Nurfitasari</li>
+      <li>Early Nazwa Nafisatus Shofa</li>
+      <li>Fadli Royan Firdaus</li>
+      <li>Faizha Tri Anugrah</li>
+      <li>Farel Sapta Ramadhan</li>
+      <li>Firda Dwi Nuramalia</li>
+      <li>M. Anas Fahreza</li>
+      <li>Medina Fani Setiyowati</li>
+      <li>Mifta Takeiya Nur Annisa</li>
+      <li>Mohamad Kevin Abdilah</li>
+      <li>Mohamad Sabil Firmansyah</li>
+      <li>Natasya Prahesti Reqita Cahya</li>
+      <li>Naura Shofi Salsabila</li>
+      <li>Nur Syafikah Ramadhani</li>
+      <li>Rafi Achmad Sukristianto</li>
+      <li>Rahma Amelia Zahra</li>
+      <li>Raihan Firdaust</li>
+      <li>Revalina Afiola</li>
+      <li>Richard Dwiky Albertino</li>
+      <li>Rifky Farell Adriano</li>
+      <li>Rinno Septa Ramadhan</li>
+      <li>Sakira Ramadhani</li>
+      <li>Victor Halim Maulana</li>
+      <li>Vira Puspitasari</li>
+    </ul>
+  </div>
 </body>
 </html>
