@@ -1,53 +1,75 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Kenangan: Foto Akhir Semester</title>
-    <style>
-      body {
-        font-family: sans-serif;
-        margin: 0;
-        background: #f0f0f0;
-      }
-      .header {
-        background: #424242;
-        color: white;
-        padding: 15px;
-        text-align: center;
-      }
-      .container {
-        padding: 20px;
-        max-width: 800px;
-        margin: auto;
-        background: white;
-      }
-      img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        margin-bottom: 20px;
-      }
-      a.kembali {
-        display: inline-block;
-        margin-top: 20px;
-        background: #616161;
-        color: white;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 5px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="header">
-      <h1>Kenangan XI.4 - Foto Akhir Semester</h1>
-    </div>
-    <div class="container">
-      <img src="IMG-20250725-WA0024.jpg" alt="Foto bareng akhir semester" />
-      <p>
-        Foto ini diambil di akhir semester saat semua anak XI.4 berkumpul dengan baju hitam dan batik khas.
-        Kenangan ini penuh tawa dan semangat kebersamaan menjelang liburan.
-      </p>
-      <a class="kembali" href="kenangan.html">← Kembali ke Kenangan</a>
-    </div>
-  </body>
-</html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kenangan Foto XI.4</title>
+  <link rel="stylesheet" href="gaya.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #424242;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    nav {
+      background-color: #616161;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 90%;
+      max-width: 800px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kenangan Foto XI.4</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="nama.html">Nama Teman</a>
+    <a href="kenangan.html">Kenangan</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="ucapan.html">Ucapan</a>
+  </nav>
+
+  <div class="gallery">
+    <img src="IMG-20250725-WA0024.jpg" alt="Foto 1">
+    <img src="IMG-20250725-WA0086.jpg" alt="Foto 2">
+    <img src="IMG-20250725-WA0044.jpg" alt="Foto 3">
+    <img src="IMG-20250724-WA0028.jpg" alt="Foto 4">
+    <img src="IMG-20250725-WA0078.jpg" alt="Foto 5">
+    <img src="IMG-20250725-WA0020.jpg" alt="Foto 6">
+    <img src="IMG-20250724-WA0022.jpg" alt="Foto 7">
+  </div>
+
+  <footer>
+    © 2025 XI.4 Ardhamashraya
+  </footer>
+
+</body>
+  </html>
