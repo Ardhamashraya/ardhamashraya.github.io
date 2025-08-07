@@ -31,12 +31,14 @@ footer {
   margin-top: 20px;
 }
 ul.nama-list {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin: 0;
 }
+
 ul.nama-list li {
-  background: #e0e0e0;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
+  margin: 4px 0;
+  padding: 2px;
+  background: none;
+  border: none;
 }
